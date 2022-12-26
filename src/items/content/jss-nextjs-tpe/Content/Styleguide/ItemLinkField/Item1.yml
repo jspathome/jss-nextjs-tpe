@@ -1,0 +1,30 @@
+﻿---
+ID: "5fe0ac8e-c493-5558-840e-b593eedadb63"
+Parent: "cbb6bd88-c045-56b8-82bd-a5b842591b30"
+Template: "698bcb3b-f60e-5247-89e7-2f198b5a40c3"
+Path: "/sitecore/content/jss-nextjs-tpe/Content/Styleguide/ItemLinkField/Item1"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Styleguide Item Link Item 1 (Shared)
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221225T074201Z
+    - ID: "6b46aefc-56a7-54f3-bec8-880940132dbd"
+      Hint: textField
+      Value: ItemLink Demo (Shared) Item 1 Text Field
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2e2a385d-1186-4da3-84e8-6dfbc3747e03"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221225T074201Z

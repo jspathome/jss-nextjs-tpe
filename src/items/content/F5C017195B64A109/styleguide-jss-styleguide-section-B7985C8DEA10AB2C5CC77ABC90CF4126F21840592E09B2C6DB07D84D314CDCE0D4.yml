@@ -1,0 +1,52 @@
+﻿---
+ID: "8168bd1a-ab71-5494-955f-91196b8aa61e"
+Parent: "a1351718-6b6a-5952-982b-3d96bd54b211"
+Template: "d19bc747-b69e-57b0-9a8f-ec69323a634c"
+Path: "/sitecore/content/jss-nextjs-tpe/home/styleguide/Page Components/styleguide-jss-styleguide-section-B7985C8DEA10AB2C5CC77ABC90CF4126F21840592E09B2C6DB07D84D314CDCE0D4"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-ContentList-11"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221225T074203Z
+    - ID: "373e535d-5a48-5a3c-9d48-0b17fcaf7179"
+      Hint: localContentList
+      Value: |
+        {49393D59-010E-543C-81EA-B5865F44F10F}
+        {660314A9-B619-5AAB-8383-634C7804308B}
+    - ID: "4a2d9284-5b95-595c-8af8-abc3e5e977ed"
+      Hint: description
+      Value: |
+        <p>
+          <small>
+            Content Lists are a way to reference zero or more other content items.
+            Referenced items may be shared.
+            To reference a single content item, use an <em>Item Link</em> field.<br />
+            <strong>Note:</strong> Sitecore does not support inline editing of Content List fields. The value must be edited in Experience Editor by using the edit rendering fields button (looks like a pencil) with the whole component selected.
+          </small>
+        </p>
+        
+    - ID: "4a7247d5-c86c-5ce7-a072-251f976872ee"
+      Hint: heading
+      Value: Content List
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8a9acb70-224a-439d-bd3a-17bc273bc974"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221225T074203Z
+    - ID: "f65589e4-fae3-5f82-ab11-7e26838e103d"
+      Hint: sharedContentList
+      Value: |
+        {A03CC6F4-7149-59CF-8FD6-4A37EBE4B6AE}
+        {1A42DD39-CEC2-54B6-8186-2B3B8CCF91F9}

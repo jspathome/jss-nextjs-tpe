@@ -1,0 +1,42 @@
+﻿---
+ID: "e8c424c4-d686-55a9-aa85-beb1971eb9e6"
+Parent: "a1351718-6b6a-5952-982b-3d96bd54b211"
+Template: "37402123-d4c0-58b2-8866-8ec2d26ed1cd"
+Path: "/sitecore/content/jss-nextjs-tpe/home/styleguide/Page Components/styleguide-jss-styleguide-section-B7A4F8AD6E93A009B7A1F2DF9957E9F59E0069ECF65361BB997451C1257F427C02"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-Date-8"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221225T074203Z
+    - ID: "4a2d9284-5b95-595c-8af8-abc3e5e977ed"
+      Hint: description
+      Value: |
+        <p><small>Both <code>Date</code> and <code>DateTime</code> field types are available. Choosing <code>DateTime</code> will make Sitecore show editing UI for time; both types store complete date and time values internally. Date values in JSS are formatted using <a href="https://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations" target="_blank">ISO 8601 formatted strings</a>, for example <code>2012-04-23T18:25:43.511Z</code>.</small></p>
+        <div class="alert alert-warning"><small>Note: this is a JavaScript date format (e.g. <code>new Date().toISOString()</code>), and is different from how Sitecore stores date field values internally. Sitecore-formatted dates will not work.</small></div>
+        
+    - ID: "4a7247d5-c86c-5ce7-a072-251f976872ee"
+      Hint: heading
+      Value: Date
+    - ID: "7568f994-9af3-5bb1-a518-2f0173eb9bb9"
+      Hint: dateTime
+      Value: 20180314T150000Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "56e7a59a-9743-44d0-90b5-1371b19d82c6"
+    - ID: "9082b9df-561e-5fa6-ab05-d2a701ef22a5"
+      Hint: date
+      Value: 20120504T000000Z
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221225T074203Z

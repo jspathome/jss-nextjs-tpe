@@ -1,0 +1,33 @@
+﻿---
+ID: "f09ec5c8-7f9d-59ca-a297-46a45b38f7d8"
+Parent: "a1351718-6b6a-5952-982b-3d96bd54b211"
+Template: "3424415a-d651-5bce-9a8a-0618db2826e8"
+Path: "/sitecore/content/jss-nextjs-tpe/home/styleguide/Page Components/styleguide-jss-styleguide-section-7DE41A1A-24E4-5963-8206-3BB0B7D9DD69-0-Styleguide-Layout-Tabs-2"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-Layout-Tabs-2"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221225T074203Z
+    - ID: "4a2d9284-5b95-595c-8af8-abc3e5e977ed"
+      Hint: description
+      Value: <p>Creating hierarchical components like tabs is made simpler in JSS because it's easy to introspect the layout structure.</p>
+    - ID: "4a7247d5-c86c-5ce7-a072-251f976872ee"
+      Hint: heading
+      Value: Tabs
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "73f6ce5a-589d-4349-b0f2-12101eb7bbe7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221225T074203Z

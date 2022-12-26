@@ -1,0 +1,24 @@
+{
+    "namespace": "jss-nextjs-tpe",
+    "references": [ "InitItems" ],
+    "items": {
+        "includes": [
+            {
+                "name": "layouts",
+                "path": "/sitecore/layout/Layouts/Project/jss-nextjs-tpe"
+            },
+            {
+                "name": "placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project/jss-nextjs-tpe"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Project/jss-nextjs-tpe"
+            },
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/jss-nextjs-tpe"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "namespace": "jss-nextjs-tpe-Content",
+    "references": [ "jss-nextjs-tpe" ],
+    "items": {
+        "includes": [
+            {
+                "name": "content",
+                "path": "/sitecore/content/jss-nextjs-tpe"
+            },
+            {
+                "name": "media",
+                "path": "/sitecore/media library/jss-nextjs-tpe"
+            }
+        ]
+    }
+}
