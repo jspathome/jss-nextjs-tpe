@@ -34,6 +34,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@sitecore-jss/sitecore-jss-nextjs": "^21.0.2",
+    "@sitecore/engage": "^0.4.0",
     "bootstrap": "^4.3.1",
     "graphql": "~15.8.0",
     "graphql-tag": "^2.11.0",
@@ -76,6 +77,7 @@
     "babel-loader": "^8.3.0",
     "chalk": "~2.4.2",
     "chokidar": "~3.1.1",
+    "chromatic": "^6.14.0",
     "constant-case": "^3.0.4",
     "cross-env": "~6.0.3",
     "dotenv": "^16.0.0",
@@ -104,15 +106,14 @@
     "next:dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "next:start": "next start",
     "scaffold": "ts-node --project tsconfig.scripts.json scripts/scaffold-component.ts",
-    
     "start": "cross-env-shell JSS_MODE=disconnected \"npm-run-all --serial bootstrap --parallel next:dev start:disconnected-proxy start:watch-components\"",
     "start:connected": "npm-run-all --serial bootstrap --parallel next:dev start:watch-components",
     "start:disconnected-proxy": "ts-node --project tsconfig.scripts.json ./scripts/disconnected-mode-proxy.ts",
     "start:production": "npm-run-all --serial bootstrap next:build next:start",
     "start:watch-components": "ts-node --project tsconfig.scripts.json scripts/generate-component-factory.ts --watch",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -s ./data/media -p 6006",
     "build-storybook": "build-storybook",
-    "generate-stories": "ts-node --project tsconfig.scripts.json scripts/generate-stories.ts"    
+    "generate-stories": "ts-node --project tsconfig.scripts.json scripts/generate-stories.ts"
   },
   "resolutions": {
     "webpack": "^5"

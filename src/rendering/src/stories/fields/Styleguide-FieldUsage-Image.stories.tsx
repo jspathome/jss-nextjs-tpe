@@ -31,13 +31,13 @@ Default.args = {
     },
     sample1: {
       value: {
-        src: '/data/media/img/sc_logo.png',
+        src: '/img/sc_logo.png',
         alt: 'Sitecore Logo',
       },
     },
     sample2: {
       value: {
-        src: '/data/media/img/jss_logo.png',
+        src: '/img/jss_logo.png',
         alt: 'Sitecore JSS Logo',
       },
     },
